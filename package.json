@@ -1,0 +1,8 @@
+{
+  "name": "danger-globe",
+  "version": "1.1.0",
+  "description": "Spinning travel-safety globe with live, vetted-source news reports per district",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

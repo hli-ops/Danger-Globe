@@ -1,0 +1,9 @@
+# Render Blueprint: Node web service (serves index.html + the keyless news endpoint).
+services:
+  - type: web
+    name: danger-globe
+    runtime: node
+    plan: free
+    buildCommand: echo "No build step needed"
+    startCommand: node server.js
+    healthCheckPath: /healthz
